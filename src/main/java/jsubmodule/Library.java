@@ -7,4 +7,8 @@ public class Library {
     public void print(final String stringToPrint) {
         System.out.println(stringToPrint);
     }
+
+    public String numberToString(final int number) {
+        return String.valueOf(number);
+    }
 }

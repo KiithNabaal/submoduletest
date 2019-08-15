@@ -11,4 +11,15 @@ public class Library {
     public String numberToString(final int number) {
         return String.valueOf(number);
     }
+
+    public int stringToNumber(final String number) {
+        try {
+            return Integer.parseInt(number);
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+        }
+
+        return 0;
+    }
 }
